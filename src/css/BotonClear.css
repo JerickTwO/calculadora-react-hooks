@@ -1,0 +1,20 @@
+.boton-clear {
+  height: 80px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  background-color: #f6ff47;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000000;
+  border: 2px solid #fff;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 40px;
+  &:hover {
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+}
